@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">keep-state2</string>
+    <string name="click_to_change_text">Click to change text!</string>
+</resources>
