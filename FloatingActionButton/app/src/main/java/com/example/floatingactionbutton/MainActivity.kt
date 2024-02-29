@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        enterListValue = findViewById(R.id.enterListValue)
         listView = findViewById(R.id.lv1)
         adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, listItems)
 
